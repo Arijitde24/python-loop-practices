@@ -1,0 +1,21 @@
+my_tuples=('a','b','c','a','a')
+print(my_tuples)
+print(my_tuples[0])
+print(my_tuples.count('a'))
+print(my_tuples.index('b'))
+
+languages=("English","Spanish","Portugese","Hindi")
+print (languages)
+print(languages[0])
+print(len(languages))
+print(languages[1: ])
+print(languages[ : :2])
+print(languages[-1])
+print(languages[ : :-1])
+
+numbers=(2,3,4,5)
+print(min(numbers))
+
+nest_tuple = ((1, 2, 3), (4, 5, 6), (7, 8, 9))
+print(nest_tuple[2]) 
+print(nest_tuple[0][1])
